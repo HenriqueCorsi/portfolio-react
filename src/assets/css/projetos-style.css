@@ -40,12 +40,102 @@
     padding: 0.5rem;
     transition: 0.5s;
     text-decoration: none;
+    box-shadow: 1px 1px 4px #000;
     font-size: 20px;
-    font-family: roboto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
     background-color: #000000;
-    color: #fff;
+    color: #ffffff;
 }
 
 .box-links a:hover{
     scale: 105%;
+}
+
+@media (min-width: 1000px) and (max-width: 1200px) {
+    .projetos-box{
+        width: 500px;
+    }
+    
+    .mobile-box{
+        width: 200px;
+        margin: -25rem 0 0 16rem;
+    }
+}
+
+@media (min-width: 550px) and (max-width: 999px) {
+    .projetos-container{
+        display: block;
+        padding: 0;
+    }
+    
+    .projetos-box{
+        width: 500px;
+        margin:auto;
+    }
+
+    .box002{
+        margin-top: 5rem;
+    }
+
+    .mobile-box{
+        width: 200px;
+        margin: -25rem 0 0 16rem;
+    }
+
+    .box-links a{
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 420px) and (max-width: 549px) {
+    .projetos-container{
+        display: block;
+        padding: 0;
+    }
+    
+    .projetos-box{
+        width: 400px;
+        margin:auto;
+    }
+
+    .box002{
+        margin-top: 5rem;
+    }
+
+    .mobile-box{
+        width: 150px;
+        margin: -19em 0 0 13rem;
+    }
+
+    .box-links a{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 419px) {
+    .projetos-container{
+        display: block;
+        padding: 0;
+    }
+    
+    .projetos-box{
+        width: 300px;
+        margin:auto;
+    }
+
+    .box002{
+        margin-top: 5rem;
+    }
+
+    .mobile-box{
+        width: 120px;
+        margin: -15em 0 0 10rem;
+    }
+
+    .box-links a{
+        width: 40%;
+        padding: 0.2rem;
+        font-size: 12px;
+    }
 }

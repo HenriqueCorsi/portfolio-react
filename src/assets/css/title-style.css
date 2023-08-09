@@ -13,3 +13,9 @@
     font-size: 25px;
     font-weight: bold;
 }
+
+@media screen and (max-width: 750px) {
+    .title-container h2{
+        font-size: 20px;
+    }
+}
