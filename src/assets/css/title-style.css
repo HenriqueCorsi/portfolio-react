@@ -1,0 +1,15 @@
+@font-face {
+    font-family: heavitas;
+    src: url('../font/Heavitas.ttf');
+}
+
+.title-container{
+    margin: 4rem auto;
+    text-align: center;
+}
+
+.title-container h2{
+    font-family: heavitas;
+    font-size: 25px;
+    font-weight: bold;
+}
