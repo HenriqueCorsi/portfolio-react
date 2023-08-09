@@ -53,7 +53,7 @@ header{
 }
 
 .icon-box a > img{
-    width: 90%;
+    width: 100px;
 }
 
 .header-box02{
@@ -80,4 +80,97 @@ header{
     font-family: roboto;
     font-weight: 600;
 }
+
+@media (min-width: 851px) and (max-width: 1200px) {
+    .header-container{
+        width: 90%;
+    }
+
+    .header-box01 h1, .header-box02 h1{
+        font-size: 120px;
+    }
+
+    .icon-box{
+        width: 50%;
+    }
+    
+
+}
+
+@media screen and (max-width: 851px) {
+    .header-container{
+        width: 90%;
+    }
+
+    .header-box01{
+        margin-top: 0;
+    }
+
+    .header-box02{
+        margin-top: -1rem;
+    }
+
+    .header-box01 h1, .header-box02 h1{
+        font-size: 90px;
+    }
+
+    .icon-box{
+        width: 50%;
+    }
+
+    .icon-box a > img{
+        width: 80%;
+    }
+
+    .header-desc{
+        width: 70%;
+    }
+
+    
+@media screen and (max-width: 650px) {
+    .header-container{
+        width: 90%;
+        padding: 0;
+    }
+
+    .header-container h2{
+        font-size: 12px;
+    }
+
+    .header-box01{
+        margin-top: 0;
+    }
+
+    .header-box02{
+        margin-top: -1rem;
+    }
+
+    .header-box01 h1, .header-box02 h1{
+        font-size: 40px;
+    }
+
+    .icon-box{
+        width: 20%;
+    }
+
+    .icon-box a > img{
+        width: 80%;
+    }
+
+    .header-desc{
+        width: 70%;
+    }
+
+    .header-desc p{
+        font-size: 10px;
+    }
+
+}
+
+}
+
+
+    
+
+
 
