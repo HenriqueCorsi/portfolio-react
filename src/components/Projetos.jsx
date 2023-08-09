@@ -8,23 +8,24 @@ function Projetos(){
     return(
         <section className='projetos-container'>
             <div className='projetos-box'>
-                <a href="#" target='_blank'><img className='img-tablet' src={iconTablet01} alt="icon tablet" /></a>
+                <a href="https://garagem224.vercel.app/" target='_blank'><img className='img-tablet' src={iconTablet01} alt="icon tablet" /></a>
                 <div className='mobile-box'>
-                    <a href="#" target='_blank'><img className='img-mobile01' src={iconMobile01} alt="icon mobile" /></a>
+                    <a href="https://garagem224.vercel.app/" target='_blank'><img className='img-mobile01' src={iconMobile01} alt="icon mobile" /></a>
                 </div>
                 <div className='box-links'>
-                    <a href="#" target='_blank'>Site</a>
-                    <a href="#" target='_blank'>Repositório</a>
+                    <a href="https://garagem224.vercel.app/" target='_blank'>Site</a>
+                    <a href="https://github.com/HenriqueCorsi/Garagem224" target='_blank'>Repositório</a>
                 </div>
             </div>
-            <div className='projetos-box'>
-                <a href="#" target='_blank'><img className='img-tablet' src={iconTablet02} alt="icon tablet" /></a>
+
+            <div className='projetos-box box002'>
+                <a href="https://henriquecorsi.github.io/imc-FIT/" target='_blank'><img className='img-tablet' src={iconTablet02} alt="icon tablet" /></a>
                 <div className='mobile-box'>
-                    <a href="#" target='_blank'><img className='img-mobile02' src={iconMobile02} alt="icon mobile" /></a>
+                    <a href="https://henriquecorsi.github.io/imc-FIT/" target='_blank'><img className='img-mobile02' src={iconMobile02} alt="icon mobile" /></a>
                 </div>
                 <div className='box-links'>
-                    <a href="#" target='_blank'>Site</a>
-                    <a href="#" target='_blank'>Repositório</a>
+                    <a href="https://henriquecorsi.github.io/imc-FIT/" target='_blank'>Site</a>
+                    <a href="https://github.com/HenriqueCorsi/imc-FIT" target='_blank'>Repositório</a>
                 </div>
             </div>
         </section>
