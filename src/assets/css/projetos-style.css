@@ -1,0 +1,51 @@
+@font-face {
+    font-family: roboto;
+    src: url('../font/Roboto-Light.ttf');
+}
+
+.projetos-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+.projetos-box{
+    text-align: center;
+    position: relative;
+}
+
+.img-tablet{
+    width: 80%;
+}
+
+.mobile-box{
+    position: absolute;
+    width: 40%;
+    margin: -30rem 0 0 20rem;
+}
+
+.img-mobile01, .img-mobile02{
+    width: 100%;
+}
+
+.box-links{
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem;
+}
+
+.box-links a {
+    width: 30%;
+    padding: 0.5rem;
+    transition: 0.5s;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: roboto;
+    background-color: #000000;
+    color: #fff;
+}
+
+.box-links a:hover{
+    scale: 105%;
+}
