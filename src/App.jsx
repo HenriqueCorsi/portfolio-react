@@ -1,5 +1,6 @@
 import './App.css'
 import Header from './components/Header'
+import Projetos from './components/Projetos'
 import Title from './components/Title'
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <>
       <Header/>
       <Title title="Projetos"/>
+      <Projetos/>
     </>
   )
 }
