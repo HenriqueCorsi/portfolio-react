@@ -1,0 +1,60 @@
+@font-face {
+    font-family: heavitas;
+    src: url('../font/Heavitas.ttf');
+}
+
+@font-face {
+    font-family: learning;
+    src: url('../font/LearningCurve.ttf');
+}
+
+@font-face {
+    font-family: roboto;
+    src: url('../font/Roboto-Light.ttf');
+}
+
+.sobre-container{
+    height: 550px;
+    padding: 1rem 0;
+    margin-bottom: 4rem;
+    background-color: #fff;
+}
+
+.sobre-box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+
+.sobre-subbox01{
+    width: 60%;
+}
+
+.sobre-subbox01 h3{
+    margin: 0.5rem 0;
+    font-family: learning;
+    font-size: 30px;
+}
+
+.sobre-subbox01 h2{
+    font-family:  heavitas;
+    font-size: 20px;
+}
+
+.sobre-subbox02{
+    width: 40%;
+    background-color: blueviolet;
+}
+
+.sobre-desc{
+    width: 90%;
+    margin: 0.5rem 0;
+}
+
+.sobre-desc p{
+    line-height: 1.5rem;
+    text-align: justify;
+    font-family: roboto;
+}
