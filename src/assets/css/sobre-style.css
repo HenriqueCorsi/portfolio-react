@@ -14,9 +14,8 @@
 }
 
 .sobre-container{
-    height: 550px;
-    padding: 1rem 0;
-    margin-bottom: 4rem;
+    padding: 0.4rem 0 5rem 0;
+    margin-bottom: 5rem;
     background-color: #fff;
 }
 
@@ -44,17 +43,34 @@
 }
 
 .sobre-subbox02{
-    width: 40%;
+    width: 30%;
     background-color: blueviolet;
 }
 
 .sobre-desc{
     width: 90%;
-    margin: 0.5rem 0;
+    margin: 1rem 0;
 }
 
 .sobre-desc p{
-    line-height: 1.5rem;
+    line-height: 1.7rem;
     text-align: justify;
     font-family: roboto;
 }
+
+.sobre-box-icon{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    margin: 2rem auto;
+}
+
+.sobre-box-icon a > img{
+    width: 70%;
+    transition: 0.5s;
+}
+.sobre-box-icon a > img:hover{
+    scale: 110%;
+}
+
+
