@@ -15,9 +15,9 @@ function Sobre (){
                     <div className='sobre-desc'>
                         <p>
                         Me chamo Paulo Henrique e neste momento resido na cidade de São Paulo. No ano de 2019, me formei em Análise e Design de Sistemas. Durante o último ano da minha formação acadêmica, iniciei minha trajetória no setor administrativo, onde permaneci por um período de três anos e meio.<br></br>
-                        No entanto, percebi que estava me afastando da minha verdadeira aspiração, que sempre consistiu em ser um profissional na área de desenvolvimento. Por esse motivo, optei por deixar essa esfera de atuação e, no ano de 2023, retomei meus estudos com foco em diversas tecnologias relacionadas ao Front-End, como React, HTML, CSS, JavaScript, Tailwind e Node.js. Além disso, possuo competência em Python e variados sistemas de gerenciamento de bancos de dados.<br></br>
+                        No entanto, percebi que estava me afastando da minha verdadeira aspiração, que sempre consistiu em ser um profissional na área de desenvolvimento. Por esse motivo, optei por deixar essa esfera de atuação e, no ano de 2022, retomei meus estudos com foco em diversas tecnologias relacionadas ao Front-End, como <strong>React, HTML, CSS, JavaScript, Tailwind e Node.js.</strong> Além disso, possuo competência em <strong>Python</strong> e variados sistemas de <strong>Gerenciamento de Bancos de Dados</strong>.<br></br>
                         Neste momento, estou trabalhando como Freelancer, dedicando-me ao desenvolvimento de uma ampla gama de interfaces, sempre em busca de qualidade em todas as minhas realizações.<br></br>
-                        É possível me encontrar no GitHub, onde me dedico a elaborar projetos de cunho pessoal utilizando a tecnologia React, ou no LinkedIn, onde frequentemente participo de discussões relacionadas ao desenvolvimento Front-End.
+                        É possível me encontrar no <strong>GitHub</strong>, onde me dedico a elaborar projetos de cunho pessoal, ou no <strong>LinkedIn</strong>, onde frequentemente participo de discussões relacionadas ao desenvolvimento Front-End.
                         </p>
                         <div className='sobre-box-icon'>
                             <a href="#"><img src={iconLinkedin} alt="icon01" /></a>
