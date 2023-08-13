@@ -1,4 +1,5 @@
 import './App.css'
+import Footer from './components/Footer'
 import Header from './components/Header'
 import Projetos from './components/Projetos'
 import Sobre from './components/Sobre'
@@ -12,6 +13,7 @@ function App() {
       <Title title="Projetos"/>
       <Projetos/>
       <Sobre/>
+      <Footer/>
     </>
   )
 }
