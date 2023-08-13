@@ -44,6 +44,7 @@
 
 .sobre-subbox02{
     width: 30%;
+    height: 500px;
     background-color: blueviolet;
 }
 
@@ -73,4 +74,19 @@
     scale: 110%;
 }
 
+@media screen and (max-width: 1200px) {
+    .sobre-box{
+        width: 90%;
+        margin: -2rem auto;
+    }
+
+    .sobre-subbox01{
+        width: 90%;
+        margin: auto;
+    }
+    
+    .sobre-subbox02{
+        display: none;
+    }
+}
 
