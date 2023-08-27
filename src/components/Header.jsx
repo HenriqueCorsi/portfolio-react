@@ -11,9 +11,9 @@ function Header(){
                 <div className='header-box01'>
                     <h1>react</h1>
                     <div className='icon-box'>
-                        <a href="#"><img src={iconLinkedin} alt="icone Linkedin" /></a>
-                        <a href="#"><img src={iconGitHub} alt="icone Gihub" /></a>
-                        <a href="#"><img src={iconCurriculo} alt="icon Curriulo" /></a>
+                        <a href="https://www.linkedin.com/in/paulohenrique--/" target='_blank'><img src={iconLinkedin} alt="icone Linkedin" /></a>
+                        <a href="https://github.com/HenriqueCorsi" target='_blank'><img src={iconGitHub} alt="icone Gihub" /></a>
+                        <a href="#" target='_blank'><img src={iconCurriculo} alt="icon Curriulo" /></a>
                     </div>
                 </div>
                 <div className='header-box02'>
