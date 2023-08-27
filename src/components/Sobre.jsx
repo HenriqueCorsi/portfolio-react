@@ -20,8 +20,8 @@ function Sobre (){
                         É possível me encontrar no <strong>GitHub</strong>, onde me dedico a elaborar projetos de cunho pessoal, ou no <strong>LinkedIn</strong>, onde frequentemente participo de discussões relacionadas ao desenvolvimento Front-End.
                         </p>
                         <div className='sobre-box-icon'>
-                            <a href="#"><img src={iconLinkedin} alt="icon01" /></a>
-                            <a href="#"><img src={iconGithub} alt="icon02" /></a>
+                            <a href="https://www.linkedin.com/in/paulohenrique--/" target='_blank'><img src={iconLinkedin} alt="icon01" /></a>
+                            <a href="https://github.com/HenriqueCorsi" target='_blank'><img src={iconGithub} alt="icon02" /></a>
                             <a href="#"><img src={iconCurriculo} alt="icon03" /></a>
                         </div>
                     </div>
