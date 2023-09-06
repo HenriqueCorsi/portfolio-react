@@ -3,6 +3,7 @@ import Title from './Title';
 import iconLinkedin from '../assets/img/sobre-linkedin.png'
 import iconGithub from '../assets/img/sobre-github.png'
 import iconCurriculo from '../assets/img/sobre-currículo.png'
+import myImg from '../assets/img/my-img.jpeg'
 
 function Sobre (){
     return(
@@ -27,7 +28,7 @@ function Sobre (){
                     </div>
                 </div>
                 <div className='sobre-subbox02'> 
-                    <img src="#" alt="img-my" />
+                    <img src={myImg} alt="img-my" />
                 </div>
             </div>
         </section>
