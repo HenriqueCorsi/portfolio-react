@@ -43,8 +43,10 @@
 
 .sobre-subbox02{
     width: 30%;
-    height: 500px;
-    background-color: blueviolet;
+}
+
+.sobre-subbox02 img{
+    width: 90%;
 }
 
 .sobre-desc{
